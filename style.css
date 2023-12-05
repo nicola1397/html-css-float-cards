@@ -73,6 +73,7 @@ p {
   flex-direction: column;
   justify-content: space-evenly;
   padding: 0 20px;
+  text-align: left;
 }
 
 .row {
