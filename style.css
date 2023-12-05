@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  padding: 0 15%;
+}
+
+/* FORMATTAZIONE TESTO */
+
+h1 {
+  color: #ed306f;
+  margin: 40px 0;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+h4 {
+  color: turquoise;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.2rem;
+}
+/* FINE FORMATTAZIONE TESTO */
+
+.element {
+  background-color: #0f0e17;
+  box-shadow: 0 0 5px black;
+}
+
+.element img {
+  float: left;
+  display: block;
+  height: 120px;
+}
+
+.container {
+  color: white;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.col3 {
+  width: calc(100% / 3);
+  float: left;
+  padding: 20px;
+}
+
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.text {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 20px;
+}
+
+.row {
+  margin: 0 -20px;
+}
