@@ -47,6 +47,7 @@ p {
   float: left;
   display: block;
   height: 120px;
+  margin-right: 20px;
 }
 
 .container {
@@ -59,6 +60,7 @@ p {
   width: calc(100% / 3);
   float: left;
   padding: 20px;
+  position: relative;
 }
 
 .clear::after {
@@ -68,12 +70,13 @@ p {
 }
 
 .text {
-  height: 120px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding: 0 20px;
   text-align: left;
+  height: 120px;
+  padding: 7px;
+}
+
+.text * {
+  margin: 10px;
 }
 
 .row {
